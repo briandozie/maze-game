@@ -6,6 +6,6 @@ This game utilizes object-oriented design patterns such as the Decorator Pattern
 To run the game:
 1. Navigate to /Maze
 2. Run command "./gradlew run"\
-\
+
 The game will then ask for a map file, use the "map.txt" file as the input map file.
 
