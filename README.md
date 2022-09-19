@@ -9,3 +9,5 @@ To run the game:
 
 The game will then ask for a map file, use the "map.txt" file as the input map file.
 
+Source code can be found under /Maze/src/main/java
+
