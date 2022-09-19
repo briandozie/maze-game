@@ -1,0 +1,181 @@
+May 10, 2022 2:40:27 PM edu.curtin.app.Maze main
+INFO: Receive name of input file from user: map.txt
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DV' with value '1' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalDoorReader fillContent
+INFO: Added vertical door with colour code '1' on the left of 2D array position (1,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DV' with value '5' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalDoorReader fillContent
+INFO: Added vertical door with colour code '5' on the left of 2D array position (1,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DV' with value '3' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalDoorReader fillContent
+INFO: Added vertical door with colour code '3' on the left of 2D array position (5,22)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DV' with value '2' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalDoorReader fillContent
+INFO: Added vertical door with colour code '2' on the left of 2D array position (9,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DH' with value '4' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalDoorReader fillContent
+INFO: Added horizontal door with colour code '4' above the 2D array position (9,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DH' with value '6' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalDoorReader fillContent
+INFO: Added horizontal door with colour code '6' above the 2D array position (7,10)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'DH' with value '6' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalDoorReader fillContent
+INFO: Added horizontal door with colour code '6' above the 2D array position (9,10)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'The same coloured door again! Luckily my one key of that colour didn't just mysteriously disappear. Phew.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (3,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (3,10)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (5,10)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (7,10)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (7,14)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (9,14)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (3,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (5,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (7,2)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (7,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (9,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.Player setRow
+INFO: Player row in 2D array set to: 3
+May 10, 2022 2:40:27 PM edu.curtin.app.Player setCol
+INFO: Player column in 2D array set to: 14
+May 10, 2022 2:40:27 PM edu.curtin.app.StartReader fillContent
+INFO: Start position in 2D array set to (3,14)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'What a wonderful world.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'E' with value 'End' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.EndReader fillContent
+INFO: End position in 2D array set to (3,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'The end is nigh.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'E' with value 'End' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.EndReader fillContent
+INFO: End position in 2D array set to (7,6)
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '6' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '6' to 2D array position (7,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'Well done.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '1' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '1' to 2D array position (3,18
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '1' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '1' to 2D array position (3,18
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'First key!' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'Now find the next.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '2' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '2' to 2D array position (5,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '4' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '4' to 2D array position (7,22
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '5' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '5' to 2D array position (5,26
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '6' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '6' to 2D array position (5,26
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '5' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '5' to 2D array position (5,26
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'Got 'em.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'Which way though?' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '1' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '1' to 2D array position (3,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '2' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '2' to 2D array position (3,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '4' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '4' to 2D array position (3,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '5' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '5' to 2D array position (3,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'K' with value '6' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.KeyReader fillContent
+INFO: Added key with colour code '6' to 2D array position (3,6
+May 10, 2022 2:40:27 PM edu.curtin.app.GridSquare addContent
+INFO: Added item type 'M' with value 'I have good news and bad news.' into map container in gridSquare
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (3,18)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (3,22)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (7,22)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (3,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (5,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.VerticalWallReader fillContent
+INFO: Added vertical wall on the left of 2D array position (7,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (7,14)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (3,14)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (3,18)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (9,18)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (9,22)
+May 10, 2022 2:40:27 PM edu.curtin.app.HorizontalWallReader fillContent
+INFO: Added horizontal wall above 2D array position (5,26)
+May 10, 2022 2:40:27 PM edu.curtin.app.PlayfieldReader importMapFromFile
+INFO: Import maze from file complete
+May 10, 2022 2:40:29 PM edu.curtin.app.Display displayMaze
+INFO: Refreshed maze display
+May 10, 2022 2:40:29 PM edu.curtin.app.GameController checkForMessage
+INFO: Player has reached a grid square with message: 'What a wonderful world.'.
+May 10, 2022 2:40:29 PM edu.curtin.app.GameController <init>
+INFO: Initial setup for game controller complete
+May 10, 2022 2:40:30 PM edu.curtin.app.Maze main
+INFO: Receive user input for player movement: s
+May 10, 2022 2:40:30 PM edu.curtin.app.Display displayMaze
+INFO: Refreshed maze display
+May 10, 2022 2:40:30 PM edu.curtin.app.Player setRow
+INFO: Player row in 2D array set to: 5
+May 10, 2022 2:40:30 PM edu.curtin.app.MoveSouth movePlayer
+INFO: Player moved down a grid square.
+Current player position in 2D array: (5,14)
+May 10, 2022 2:40:31 PM edu.curtin.app.Maze main
+INFO: Receive user input for player movement: s
+May 10, 2022 2:40:32 PM edu.curtin.app.Maze main
+INFO: Receive user input for player movement: s

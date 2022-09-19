@@ -1,0 +1,271 @@
+Criteria 2: Use of containers
+
+    Throughout this assignment, two container types were used which are maps, and lists.
+    The type of map used is HashMap, and the type of list used is LinkedList.
+
+    Maps
+    
+    In main, the map container is used to represent the 3x1 grid squares which may store the key,
+    message, and end points. The map also stores the position of horizontal and verical doors.
+    The key of the map is the coordinates of the 2D arrays stored in a String format with the row
+    and column value seperated by a comma ",". The value of the map will store the gridSquare
+    interface object.
+
+    In the GridSquare class, a map is also used to store the contents in a particular grid square.
+    The key of the map reprsents the type of item, and the value stores the details/characteristics
+    of the item. For example, for a message item, the key would be "M", and the value would be 
+    the content of the message.
+
+    Lists
+
+    In the GridSquare class, a linked list is used to as the value of the map container.
+    This allows the ability to store grid square mulitple items of the same type in
+    the same grid square. For example, for the map container key "K", it can have
+    linked list of multiple key code colors such as "1, 2, 3" as the value of the map container.
+
+
+Criteria 3: Class/Interface/Method responsibilities
+
+    Interfaces
+
+        1) Content.java
+
+        This interface is used in the implementation of the strategy pattern that
+        is used during file read. Its method will be overriden by various subclasses
+        to fill the maze with various items.
+
+        2) Grid.java
+
+        This interface is used in the implementation of the decorator pattern.
+        Its methods will be overriden by subclasses to fill the specific grid square
+        in the maze with various items (keys, messages, end). There is also a remove
+        method to remove items (keys) from the grid square.
+
+        3) Move.java
+
+        This interface is used in the implementation of the strategy pattern that
+        is used for player movement. Its method will be overriden by subclasses to
+        move the player in four directions (north, east, south, west) in the maze.
+
+    Classes
+
+    1) StartReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assignning
+         astart point to the maze based on the input read from file.
+
+    2) EndReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning an
+        end point to the maze based on the input read from file.
+
+    3) KeyReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a
+        key to the maze based on the input read from file.
+
+    4) MessageReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a
+        message to the maze based on the input read from file.
+
+    5) VerticalDoorReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a
+        vertical door to the maze based on the input read from file.
+
+    6) VerticalWallReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a
+        vertical wall to the maze based on the input read from file.
+
+    7) HorizontalDoorReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a 
+        horizontal door to the maze based on the input read from file.
+
+    8) HorizontalWallReader.java
+
+        A subclass implementing the strategy pattern for file read. This class
+        implements the Content interface and is responsible for assigning a
+        horizontal wall to the maze based on the input read from file.
+    
+    9) GridSquare.java
+
+        This class represents a grid square in the maze. This class implements
+        the Grid interface and is to be decorated using the decorator pattern. 
+        The decoration process involves adding and removing items into the map
+        stored in its class field.
+
+    10) GridDecorator.java
+
+        This class is an abstract class that implements the Grid interface
+        which is used in the decorator pattern. It contains a link to the next
+        object in its clsas field to allow for recursive method calls.
+
+    11) End.java
+
+        This class extends the GridDecorator abstract class and is used in the
+        decorator pattern. This class decorates the grid square with an End point.
+
+    12) Key.java
+
+        This class extends the GridDecorator abstract class and is used in the
+        decorator pattern. This class decorates the grid square with a key.
+
+    13) Message.java
+
+        This class extends the GridDecorator abstract class and is used in the
+        decorator pattern. This class decorates the grid square with a message.
+
+    14) VerticalDoor.java
+
+        This class extends the GridDecorator abstract class and is used in the
+        decorator pattern. This class decorates the grid square with a vertical
+        door on the left of the grid square.
+
+    15) HorizontalDoor.java
+
+        This class extends the GridDecorator abstract class and is used in the
+        decorator pattern. This class decorates the grid square with a horizontal
+        door above the grid square.
+
+    16) MoveNorth.java
+
+        A subclass that implements the strategy pattern for player mvoement.
+        This class implements the Move interface and is responsible for 
+        moving the player northwards in the maze.
+
+    17) MoveSouth.java
+
+        A subclass that implements the strategy pattern for player mvoement.
+        This class implements the Move interface and is responsible for 
+        moving the player southwards in the maze.
+
+    18) MoveEast.java
+
+        A subclass that implements the strategy pattern for player mvoement.
+        This class implements the Move interface and is responsible for 
+        moving the player eastwards in the maze.
+
+    19) MoveWest.java
+
+        A subclass that implements the strategy pattern for player mvoement.
+        This class implements the Move interface and is responsible for 
+        moving the player westwards in the maze.
+
+    20) Display.java
+
+        This class contains methods to display to the terminal.
+
+    21) GameController.java
+
+        This class receives user input for moving the player. This class is
+        also responsible for handling game logic such as checking for keys,
+        messages, and win condition.
+
+    22) Input.java
+
+        This class contains methods to receive user input from terminal.
+
+    23) Maze.java
+
+        This class is the main driver class. Contains main method and makes
+        method calls to the other class to execute the maze game.
+
+    24) MazeGameException.java
+
+        This class defines the custom exception for the maze game.
+
+    25) Player.java
+
+        This class represents the player. The class stores the player's 
+        position in the 2D array and keys picked up.
+
+    26) PlayfieldReader.java
+
+        This class contains methods to read and import maze data
+        from a text file into the 2D array and map container.
+
+
+Criteria 4: Error handling and logging
+
+    Error Handling
+    
+    Operations that could potentially result in exceptions are written within 
+    a try-catch statement. If an exception is thrown is then caught and a new
+    custom exception will be thrown alongside the details of the exception. This
+    custom exception will then be caught in the main method and the error message
+    will be displayed to the terminal before the program terminates.
+
+    Logging
+
+    Logging statements are used throughout the program among the different classes.
+    These log any important events that occur when the program is running such as
+    reading from file, moving player, picking up keys/messages, reaching an
+    end grid square, and more.
+
+    Events that occur normally and are expected are logged with the level of info;
+    Events that are non-fatal erros are logged with the level of warning;
+    Events that are fatal errors are logged with the level of severe.
+
+
+Criteria 5: Strategy Pattern
+
+    File Reading
+
+    When reading the maze from the file, the strategy pattern is used to fill the 
+    2D array and map with the respective maze objects. The common interface that is 
+    implemented by the subclasses is the Content class. The subclasses are as follows,
+    StartReader, EndReader, KeyReader, MessageReader, HorizontalWallReader,
+    HorizontalDoorReader, VerticalDoorReader, and VerticalWallReader. The subclasses
+    each have different algorithms that override the method in the interface.
+    These algorithms will add the various maze objects into the 2D array and map container.
+
+    Player Movement
+
+    When the user enters an input for player movement via the terminal, the strategy pattern
+    is also used to move the position of the player in the maze. The common interface that is
+    implemented by the subclasses is the Move class. The subclasses are as follows,
+    MoveNorth, MoveSouth, MoveEast, and MoveWest. Each of the subclasses have different
+    algorithms to move the player postion in the four different directions.
+
+
+Criteria 6: Decorator Pattern
+
+    Decorating the Grid square
+
+    The decorator pattern is used in this program to add items to the grid square in the maze.
+    The interface for this pattern is the Grid class. The base implementation is the GridSquare
+    class. The abstract decorator class is the GridDecorator. The decoration classes that extend
+    the abstract class are Key, Message, VerticalDoor, HorizontalDoor, and End classes.
+
+    The base implementation class has a HashMap as the class field. This map stores either keys
+    or messages that a particular grid square contains. Keys are stored in the map with key "K", 
+    and the value is a list of the colour code number(s). On the other hand messages are stored
+    in the map with key "M", and the value is a list of the details of the message(s).
+
+    To add an item to the map, the addContent method is called;
+    To remove key(s) (referring to maze keys) from the map, the removeKey method is called;
+    To retrieve the contents of the map, the getContent method is called.
+
+
+Extra:
+
+    **Special note on doors and walls on the same location**
+
+    In this program design:
+        - A wall cannot replace a pre-existing door
+        - A door can replace a pre-existing wall
+        - A door cannot replace a pre-existing door
+
+        - If there are keys and end point on the same grid square, whichever is read last
+          from file will be dispayed on the grid. Though the grid still contains
+          all the keys and the end point regardless.
